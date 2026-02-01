@@ -25,7 +25,7 @@ check_stock = grocery_inventory["Milk"][2]
 
 if check_stock < 10:
     print("Milk needs to be restocked. Increasing stock by 20 units.")
-    new_stock = check_stock + 12
+    new_stock = check_stock + 20
     grocery_inventory["Milk"] = (
         grocery_inventory["Milk"][0],
         new_stock,
